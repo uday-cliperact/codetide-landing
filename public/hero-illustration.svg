@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Elements -->
+  <circle cx="400" cy="300" r="250" fill="#F3F4F6" opacity="0.5"/>
+  <circle cx="400" cy="300" r="200" fill="#E5E7EB" opacity="0.3"/>
+  
+  <!-- Code Window -->
+  <rect x="200" y="150" width="400" height="300" rx="8" fill="#1F2937"/>
+  <rect x="200" y="150" width="400" height="30" rx="8" fill="#374151"/>
+  <circle cx="220" cy="165" r="6" fill="#EF4444"/>
+  <circle cx="245" cy="165" r="6" fill="#F59E0B"/>
+  <circle cx="270" cy="165" r="6" fill="#10B981"/>
+  
+  <!-- Code Lines -->
+  <rect x="220" y="200" width="120" height="4" rx="2" fill="#6B7280"/>
+  <rect x="220" y="220" width="200" height="4" rx="2" fill="#6B7280"/>
+  <rect x="220" y="240" width="160" height="4" rx="2" fill="#6B7280"/>
+  <rect x="220" y="260" width="180" height="4" rx="2" fill="#6B7280"/>
+  <rect x="220" y="280" width="140" height="4" rx="2" fill="#6B7280"/>
+  <rect x="220" y="300" width="220" height="4" rx="2" fill="#6B7280"/>
+  
+  <!-- AI Brain -->
+  <g transform="translate(500, 250)">
+    <circle cx="0" cy="0" r="60" fill="#3B82F6" opacity="0.2"/>
+    <path d="M-30 0C-30 -16.569 -16.569 -30 0 -30C16.569 -30 30 -16.569 30 0C30 16.569 16.569 30 0 30C-16.569 30 -30 16.569 -30 0Z" stroke="#3B82F6" stroke-width="2"/>
+    <path d="M-20 0C-20 -11.046 -11.046 -20 0 -20C11.046 -20 20 -11.046 20 0C20 11.046 11.046 20 0 20C-11.046 20 -20 11.046 -20 0Z" stroke="#3B82F6" stroke-width="2"/>
+    <path d="M-10 0C-10 -5.523 -5.523 -10 0 -10C5.523 -10 10 -5.523 10 0C10 5.523 5.523 10 0 10C-5.523 10 -10 5.523 -10 0Z" stroke="#3B82F6" stroke-width="2"/>
+    <circle cx="0" cy="0" r="4" fill="#3B82F6"/>
+  </g>
+  
+  <!-- Connection Lines -->
+  <path d="M400 300L500 250" stroke="#3B82F6" stroke-width="2" stroke-dasharray="4 4"/>
+  <path d="M400 300L300 250" stroke="#3B82F6" stroke-width="2" stroke-dasharray="4 4"/>
+  
+  <!-- Floating Elements -->
+  <circle cx="150" cy="200" r="20" fill="#3B82F6" opacity="0.1"/>
+  <circle cx="650" cy="400" r="15" fill="#3B82F6" opacity="0.1"/>
+  <circle cx="200" cy="450" r="25" fill="#3B82F6" opacity="0.1"/>
+</svg> 
