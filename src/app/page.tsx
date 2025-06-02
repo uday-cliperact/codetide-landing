@@ -1,4 +1,62 @@
 import Image from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "CodeTide | AI powered code reviews",
+  description: "Automate your code reviews with our intelligent AI bot. Seamlessly integrated with GitHub and GitLab, it helps teams ship better code faster while maintaining high quality standards.",
+  keywords: [
+    "AI code review",
+    "automated code review",
+    "GitHub code review",
+    "GitLab code review",
+    "code review automation",
+    "AI code analysis",
+    "code quality",
+    "automated code analysis",
+    "code review bot",
+    "AI programming assistant",
+    "code review tool",
+    "automated code quality",
+    "code review automation tool",
+    "AI code reviewer",
+    "automated code reviewer"
+  ].join(", "),
+  openGraph: {
+    title: "CodeTide | AI powered code reviews",
+    description: "Automate your code reviews with our intelligent AI bot. Seamlessly integrated with GitHub and GitLab.",
+    type: "website",
+    locale: "en_US",
+    siteName: "CodeTide",
+    images: [
+      {
+        url: "https://cliperact.b-cdn.net/codetide/24_05_23_03.jpg",
+        width: 1200,
+        height: 630,
+        alt: "CodeTide AI Code Review Assistant"
+      }
+    ]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "CodeTide | AI powered code reviews",
+    description: "Automate your code reviews with our intelligent AI bot. Seamlessly integrated with GitHub and GitLab.",
+    images: ["https://cliperact.b-cdn.net/codetide/24_05_23_03.jpg"]
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  alternates: {
+    canonical: 'https://codetide-ebcuh3bkeueggyfh.canadacentral-01.azurewebsites.net'
+  }
+};
 
 export default function Home() {
   return (
