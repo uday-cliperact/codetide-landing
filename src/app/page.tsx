@@ -3,7 +3,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "CodeTide | AI powered code reviews",
-  description: "Automate your code reviews with our intelligent AI bot. Seamlessly integrated with GitHub and GitLab, it helps teams ship better code faster while maintaining high quality standards.",
+  description: "Let your developers build products and our AI will take care of the code reviews. Seamlessly integrated with GitHub and GitLab, it helps teams ship better code faster while maintaining high quality standards.",
   keywords: [
     "AI code review",
     "automated code review",
@@ -23,10 +23,11 @@ export const metadata: Metadata = {
   ].join(", "),
   openGraph: {
     title: "CodeTide | AI powered code reviews",
-    description: "Automate your code reviews with our intelligent AI bot. Seamlessly integrated with GitHub and GitLab.",
+    description: "Let your developers build products and our AI will take care of the code reviews. Seamlessly integrated with GitHub and GitLab.",
     type: "website",
     locale: "en_US",
     siteName: "CodeTide",
+    url: "https://getcodetide.com",
     images: [
       {
         url: "https://cliperact.b-cdn.net/codetide/24_05_23_03.jpg",
@@ -39,7 +40,9 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "CodeTide | AI powered code reviews",
-    description: "Automate your code reviews with our intelligent AI bot. Seamlessly integrated with GitHub and GitLab.",
+    description: "Let your developers build products and our AI will take care of the code reviews. Seamlessly integrated with GitHub and GitLab.",
+    creator: "@codetide",
+    site: "@codetide",
     images: ["https://cliperact.b-cdn.net/codetide/24_05_23_03.jpg"]
   },
   robots: {
@@ -72,12 +75,12 @@ export default function Home() {
               </span>
             </h1>
             <p className="text-xl text-gray-600 animate-fade-in-up [animation-delay:200ms]">
-              Automate your code reviews with our intelligent AI bot. Seamlessly integrated with GitHub and GitLab, 
+              Let your developers build products and our AI will take care of the code reviews. Seamlessly integrated with GitHub and GitLab, 
               it helps teams ship better code faster while maintaining high quality standards.
             </p>
             <div className="flex justify-center lg:justify-start gap-4 animate-fade-in-up [animation-delay:400ms]">
               <a
-                href="https://codetide-ebcuh3bkeueggyfh.canadacentral-01.azurewebsites.net"
+                href="https://app.getcodetide.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-8 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition-colors hover:scale-105 transform duration-200 cursor-pointer"
@@ -112,7 +115,7 @@ export default function Home() {
 
       {/* Features Section */}
       <section className="container mx-auto px-4 py-20 bg-gradient-to-b from-gray-50 to-white">
-        <h2 className="text-3xl font-bold text-center mb-16 text-gray-900 animate-fade-in-up">Why Developers Love CodeTide</h2>
+        <h2 className="text-3xl font-bold text-center mb-16 text-gray-900 animate-fade-in-up">Why Developers Love <span className="bg-gradient-to-r from-blue-600 to-blue-400 bg-clip-text text-transparent">CodeTide</span></h2>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
           {[
             {
@@ -293,7 +296,7 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in-up [animation-delay:400ms]">
             <a
-              href="https://codetide-ebcuh3bkeueggyfh.canadacentral-01.azurewebsites.net"
+              href="https://app.getcodetide.com"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-auto px-8 py-4 bg-white text-blue-600 rounded-full hover:bg-blue-50 transition-all duration-300 hover:scale-105 font-semibold text-lg cursor-pointer"
