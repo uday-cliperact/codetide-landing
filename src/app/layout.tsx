@@ -26,7 +26,21 @@ export const metadata: Metadata = {
     "automated code analysis",
     "code review bot",
     "AI programming assistant",
+    "Automated Code Review Tools",
+    "Intelligent Code Analysis",
+    "Code Quality Tools",
+    "Code Quality Automation",
+    "Faster Code Reviews",
+    "Code Review with CodeTide",
+    "Code Review Revolution",
+    "Real-Time Code Review",
+    "Code Review Platform",
+    "Faster, Smarter Code",
+    "Best AI Code Review"
   ],
+  verification: {
+    google: "fWfSEYwU8JOJz1GfDXE7OnxBTv9MVJh_dtGeT5cyP6E",
+  },
 };
 
 export default function RootLayout({
